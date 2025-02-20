@@ -1,5 +1,4 @@
-# Tips and Policies for working on Salicaceae nomenclature and
-  taxonomy in Rhakhis
+# Tips and Policies for working on Salicaceae nomenclature and taxonomy in Rhakhis
 
 _Campbell O. Webb and Quentin Cronk_
 
