@@ -1,5 +1,4 @@
-# Tips and Policies for working on Salicaceae nomenclature and
-  taxonomy in Rhakhis
+# Tips and Policies for working on Salicaceae nomenclature and taxonomy in Rhakhis
 
 _Campbell O. Webb and Quentin Cronk_
 
@@ -38,17 +37,15 @@ upload the PDF to Zenodo and use that DOI as the link.
 
 ## Nomenclatural Status
 
-Policy:
-
- * In order to switch the nomenclatural status of a name from
-   ‘unknown’ to ‘valid’ or another option one **must** actively
-   research the name. However, considering the time required to
-   perform this research for the many names that need to be reviewed,
-   it is only required to check the status for names that are accepted
-   and that are currently in an ‘unknown’ state.
+In order to switch the nomenclatural status of a name from ‘unknown’
+to ‘valid’ or another option one **must** actively research the
+name. However, considering the time required to perform this research
+for the many names that need to be reviewed, it is only required to
+check the status for names that are _accepted_ and that are currently
+in an ‘unknown’ state.
 
 Note that before adding a synonym to an accepted taxon, the status of
-the name must be ‘valid’ (or possibly ‘conserved’).
+the accepted name must be ‘valid’ (or possibly ‘conserved’).
 
 ## Homotypic names
 
@@ -62,52 +59,51 @@ This is the main tool for assigning a taxonomic status. New names, and
 many existing _Salix_ names, are unplaced (anywhere in the WFO
 taxonomy), denoted by the gray bar above the name.
 
- * To accept a name, first the nomenclatural status must be either
-   ‘valid’ or ‘conserved’. The option will appear in the placement
-   dropdown to ‘Raise to accepted taxon within...’, and _Salix_ can
-   then be chosen.  The bar above the name will change to orange
-   (i.e., now a taxonomic entity, not just a nomenclatural entity).
+To accept a name, first the nomenclatural status must be either
+‘valid’ or ‘conserved’. The option will appear in the placement
+dropdown to ‘Raise to accepted taxon within...’, and _Salix_ (or a
+_Salix_ species) can then be chosen.  The bar above the name will
+change to orange (i.e., now a taxonomic entity, not just a
+nomenclatural entity).
    
- * To make a name into a synonym of an accepted name, use the ‘Sink
-   into synonymy with...’ option. This is allowed even if the name’s
-   nomen. Status may remain ‘unknown’ (see above).
+To make a name into a synonym of an accepted name, use the ‘Sink into
+synonymy with...’ option. This is allowed even if the name’s
+nomenclatural status remains ‘unknown’ (see above).
    
- * To move the accepted taxon from one name to its current synonym,
-   first raise the synonym to an accepted taxon with _Salix_, then
-   sink the currently accepted name into synonymy.
+To move the accepted taxon from one name to its current synonym, first
+raise the synonym to an accepted taxon with _Salix_, then sink the
+currently accepted name into synonymy.
 
-Policy:
-
- * Do not move an unplaced infraspecific name into synonymy with a
-   species based solely on sharing a specific epithet with that
-   species. Some taxonomic knowledge or research is needed.
+Do not move an unplaced infraspecific name into synonymy with a
+species based solely on sharing a specific epithet with that
+species. Some taxonomic knowledge or research is needed.
 
 ## Taxonomic Sources
 
-Policies:
+Should be interpreted as taxonomic placement “according to...”
 
- * Every accepted _Salix_ name should have at least one entry in this
-   list.
+Every accepted and synonymous _Salix_ name should have at least one
+entry in this list, _unless_ the decision to place a name is a new one
+in which case the Wikidata URL of the person(s) making this decision
+should be used as the source ([Quentin][5], [Cam][6]).  It is unlikely
+will be making many new decisions about accepted taxa, but we may need
+to make new decisions about obscure, unplaced synonyms. A full
+discussion of a new decision is required in the Comments section.
+ 
+The accepted name should not have a source for each of its synonyms;
+each of the synonyms should have its own “according to” source.
 
- * Where the Source explicitly lists synonyms, those synonyms in
-   Rhakhis _do not_ require an entry in this field.
+The earliest published statement by an author about the taxonomic
+placement of a name should be used as the primary entry, with
+subsequent (flora, etc.) statements added if time allows.
 
- * If the Source of the accepted name does not list a particular
-   synonym, the synonym entry in Rhakhis must have either a Taxonomic
-   Source, or some explanation in the Comments for that name
-   explaining why it is a synonym.
+Where various authorities agree, several entries should made. Where
+authorities disagree, the link to the disagreeing authority should be
+in the Other Treatments field, not here.
 
- * Where a decision to accept can be traced back to a prior
-   publication, that publication should be used as the primary entry,
-   with subsequent flora statements added if time allows.
-
- * Where various authorities agree, several entries should made. Where
-   authorities disagree, the link to the disagreeing authority should
-   be in the Other Treatments field, not here.
-   
- * If the decision to accept is the same as the protologue in
-   Nomenclatural Source, that entry should be added to the Taxonomic
-   Source as well.
+If the decision to accept is the same as the protologue in
+Nomenclatural Source, that entry should be added to the Taxonomic
+Source as well.
 
 Common (type = Literature) options will be:
 
@@ -130,18 +126,41 @@ POWO treatments (many originating from Irina Belyaeva) are classed as
 
 ## Comments
 
-The comments field should be used for clarifying information about the
-history and taxonomic status of the record.
+The stand-alone Comments field should be used for clarifying
+information about the history and taxonomic status of the record, as
+in the nomenclatural section of a published treatment.  This
+discussion may combine comments on:
 
-Policy on tracking our review status:
+ * The original use of the name and authors in the protologue (i.e.,
+   Nomenclatural References),
+   
+ * The editors’ own choice to accept or reject a particular
+   publication as the source of the taxonomic placement (Taxonomic
+   Sources),
+   
+ * Disagreement among authors concerning the taxon’s placement
+   (disagreeing publications should be in Other Treatments)
 
- * Rather than maintaining a separate tracking document or database,
-   we can indicate the state of reviewing using one of two strings in
-   the Comments section: `[Review in progress, XX, 2025-01-30]` or
-   `[Review complete, XX, 2025-01-30]` where XX is the reviewer
-   initials, e.g., ‘QC’ or ‘CW’.  If a record is visited several times
-   before being ‘done’ the date of the ‘Review in progress’ should be
-   updated.
+Publications should be cited using a ‘Smith (2001)’ format, and all
+discussed publications must be listed somewhere on the page.
+
+The mini-discussion should be signed by following it with
+`[XX, 2025-02-20]` (where XX is the reviewer initials, e.g., ‘QC’ or
+‘CW’).
+
+_Do not_ use the Comments field in the ‘Add Reference’ popup for the
+above discussion. That reference-specific comment should be used only
+for some comment about the reference/publication/database itself
+(e.g., its availability).
+
+### Tracking our review status
+
+Rather than maintaining a separate tracking document or database, we
+can indicate the state of reviewing using one of two strings in the
+Comments section: `[Review in progress, XX, 2025-01-30]` or
+`[Review complete, XX, 2025-01-30]` where XX is the reviewer initials,
+e.g., ‘QC’ or ‘CW’.  If a record is visited several times before being
+‘done’ the date of the ‘Review in progress’ should be updated.
 
 ## IPNI Notifier
 
@@ -150,13 +169,11 @@ regularly and _overwrite_ the values in Rhakhis. If a change is made
 to either the author string or citation string, it is vital to notify
 IPNI to ask them to update their data.
 
-Policy:
-
- * Since changing IPNI records is laborious for us and them, minor
-   variants in the IPNI citation string should be tolerated. Examples
-   include the publication year not in parentheses, or an extra page
-   range added to the treatment page (e.g., ‘505 (-507)’).  True
-   errors should always be corrected.
+Since changing IPNI records is laborious for us and them, minor
+variants in the IPNI citation string should be tolerated. Examples
+include the publication year not in parentheses, or an extra page
+range added to the treatment page (e.g., ‘505 (-507)’).  True errors
+should always be corrected.
 
 ## How to handle conflicting authorities
 
@@ -177,3 +194,5 @@ the conflict.
 [2]: https://www.ipni.org/about#about-the-publication-dataset
 [3]: https://plant-list-docs.rbge.info/rhakhis/
 [4]: https://rhakhis.rbge.info/rhakhis/ui/index.html
+[5]: https://www.wikidata.org/wiki/Q16298580
+[6]: https://www.wikidata.org/wiki/Q45342779
