@@ -1,4 +1,4 @@
-# Tips and Policies for working on Salicaceae nomenclature and taxonomy in Rhakhis
+# Tips and policies for working on Salicaceae nomenclature and taxonomy in Rhakhis
 
 _Campbell O. Webb and Quentin Cronk_
 
@@ -35,7 +35,7 @@ details of the protologue, but cannot find a URL for an online
 document, create a Wikidata entry. If one has a PDF of the protologue,
 upload the PDF to Zenodo and use that DOI as the link.
 
-### Types
+### Type specimens
 
 It is desirable that a link to an online representation of a type
 specimen is provided for all accepted names, and for all basionyms.
@@ -130,6 +130,12 @@ Common (type = Literature) options will be:
 
 POWO treatments (many originating from Irina Belyaeva) are classed as
 ‘Database’ entries.
+
+## Other treatments
+
+Use this for any other mentions of this taxon, either taxonomic
+treatments that disagree with the placement chosen by us, or floras
+that use a name.
 
 ## Comments
 
