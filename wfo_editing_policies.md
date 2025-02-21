@@ -35,6 +35,13 @@ details of the protologue, but cannot find a URL for an online
 document, create a Wikidata entry. If one has a PDF of the protologue,
 upload the PDF to Zenodo and use that DOI as the link.
 
+### Types
+
+It is desirable that a link to an online representation of a type
+specimen is provided for all accepted names, and for all basionyms.
+The kind of type should be specified in the comments field of the
+link.
+
 ## Nomenclatural Status
 
 In order to switch the nomenclatural status of a name from ‘unknown’
@@ -174,6 +181,17 @@ variants in the IPNI citation string should be tolerated. Examples
 include the publication year not in parentheses, or an extra page
 range added to the treatment page (e.g., ‘505 (-507)’).  True errors
 should always be corrected.
+
+Template for email to IPNI:
+
+ipnifeedback@kew.org
+
+
+    ID number of plant/Author/Publication number
+    Literature links (from e.g. BHL, GALLICA or Bibliotheca Digital), or
+    Link to desired change/evidence
+    A PDF or an image of a protologue.
+
 
 ## How to handle conflicting authorities
 
