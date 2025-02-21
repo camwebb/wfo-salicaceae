@@ -190,14 +190,25 @@ should always be corrected.
 
 Template for email to IPNI:
 
-ipnifeedback@kew.org
+```
+To: ipnifeedback@kew.org
+Subject: <IPNI URN>
+----
+Dear IPNI editors,
 
+During the course of working on Salicaceae for the World Flora Online,
+we believe an IPNI entry requires correction:
 
-    ID number of plant/Author/Publication number
-    Literature links (from e.g. BHL, GALLICA or Bibliotheca Digital), or
-    Link to desired change/evidence
-    A PDF or an image of a protologue.
+ Name:                 <Full name>
+ IPNI URN:             <IPNI URN>
+ Nature of correction: <Author string | Citation>
+ Existing value:       ...
+ Corrected value:      ...
+ Reason for change:    ...
+ Evidential links:     http...
 
+Thank you,
+```
 
 ## How to handle conflicting authorities
 
