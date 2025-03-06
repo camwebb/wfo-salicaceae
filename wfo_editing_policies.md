@@ -19,13 +19,15 @@ Abbreviations should use Brummitt & Powell, Authors of Plant Names
 (1992). IPNI can be used to search for the correct abbreviation. See
 the [IPNI FAQs][1] for more information.
 
-## Publication
+## Publication (Citation)
 
 Imported from IPNI and should be correct. Optimal form: `{Abbreviated
 journal or book name}` `SPACE` `{(optional) {Volume} COLON SPACE}`
 `{Page}` `PERIOD SPACE OPEN-PARENTHESIS` `{Year of publication}`
 `CLOSE-PARENTHESIS`. See ‘IPNI Notifier’ below. See the [IPNI FAQs][2]
 for more information.
+
+Autonyms lack both Author Strings and Citation strings.
 
 ## Nomenclatural References
 
@@ -34,6 +36,9 @@ At a minimum there should be a link to the protologue.  If one has the
 details of the protologue, but cannot find a URL for an online
 document, create a Wikidata entry. If one has a PDF of the protologue,
 upload the PDF to Zenodo and use that DOI as the link.
+
+Autonyms should have a link to the publication of the name that
+created the autonym.
 
 ### Type specimens
 
@@ -157,6 +162,9 @@ discussion may combine comments on:
 Publications should be cited using a ‘Smith (2001)’ format, and all
 discussed publications must be listed somewhere on the page.
 
+For autonyms, the text “Autonym created by <full name of other name>”
+may be added.
+
 The mini-discussion should be signed by following it with
 `[XX, 2025-02-20]` (where XX is the reviewer initials, e.g., ‘QC’ or
 ‘CW’).
@@ -209,6 +217,11 @@ we believe an IPNI entry requires correction:
 
 Thank you,
 ```
+
+Note that the IPNI records for autonyms appear to have been hidden (as
+of March 2025), with text “This name <ipni code> is suppressed” when
+the link opens. This leads to a IPNI Notifier warning, but no action
+is required.
 
 ## How to handle conflicting authorities
 
